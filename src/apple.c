@@ -28,7 +28,7 @@ int main(){
         unsigned int m = (lb + ub) / 2;
         if (p(m)){
             ub = m;
-            
+
         }
         else {
         lb = m;
